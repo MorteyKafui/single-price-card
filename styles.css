@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Karla', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  background-color: hsl(204, 43%, 93%);
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 3rem;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100vh;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.04), 0 4px 8px rgba(0, 0, 0, 0.4),
+    0 6px 12px rgba(0, 0, 0, 0.04), 0 7px 15px rgba(0, 0, 0, 0.04);
+  overflow: hidden;
+  width: 100rem;
+}
+
+.card-header {
+  background-color: hsl(225, 100%, 100%);
+  padding: 5rem;
+}
+
+.h-primary {
+  color: hsl(179, 62%, 43%);
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+.h-secondary {
+  color: hsl(71, 73%, 54%);
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+.text {
+  color: hsl(218, 22%, 67%);
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.card-footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.card-footer .h-secondary {
+  color: hsl(225, 100%, 100%);
+}
+
+.card-footer .f-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(179, 62%, 43%);
+  padding: 5rem;
+}
+
+.f-container .sub-text {
+  color: hsl(204, 43%, 93%);
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.sub-text span {
+  color: hsla(213, 56%, 93%, 0.842);
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.sub .text {
+  color: hsla(213, 56%, 93%, 0.842);
+  margin-top: 1rem;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  padding: 2rem;
+  color: hsl(204, 43%, 93%);
+  text-decoration: none;
+  font-size: 2.5rem;
+  font-weight: 700;
+  border-radius: 15px;
+  background-color: hsl(71, 73%, 54%);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.06), 0 4px 8px rgba(0, 0, 0, 0.6),
+    0 6px 12px rgba(0, 0, 0, 0.06), 0 7px 15px rgba(0, 0, 0, 0.06);
+}
+
+.card-footer .about {
+  background-color: hsl(179, 50%, 62%);
+  color: hsla(213, 56%, 93%, 0.863);
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.7;
+  padding: 5rem;
+}
