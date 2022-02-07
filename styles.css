@@ -133,3 +133,11 @@ ul {
   line-height: 1.7;
   padding: 5rem;
 }
+
+@media (max-width: 34em) {
+  .card-footer {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+}
